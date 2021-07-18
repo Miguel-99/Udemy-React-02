@@ -6,10 +6,7 @@ import { GifGrid } from './components/GifGrid';
 const GifExpertApp = () => {
 
 
-    const [categories, setcategories] = useState(['One Punch']);
-
-//   const handleAdd = () => setcategories( cats => [...cats, 'Categoria random']);
-    
+    const [categories, setcategories] = useState(['']);
 
     return (<>
         <h2>GifExpertApp</h2>
