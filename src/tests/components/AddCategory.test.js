@@ -1,8 +1,5 @@
 import { shallow } from "enzyme"
 import { AddCategory } from "../../components/AddCategory"
-import '@testing-library/jest-dom';
-import '@testing-library/react';
-import '@testing-library/user-event'
 
 describe('Pruebas en <AddCategory />', () => {
 
