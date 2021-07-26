@@ -3,10 +3,10 @@ import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
 
-const GifExpertApp = () => {
+const GifExpertApp = ( {defaultCategories = [] }) => {
 
 
-    const [categories, setcategories] = useState(['']);
+    const [categories, setcategories] = useState( defaultCategories );
 
     return (<>
         <h2>GifExpertApp</h2>
